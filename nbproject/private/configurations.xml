@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="collectd-5.4.0">
+      <df name="bindings">
+        <df name="buildperl">
+          <df name="blib">
+            <df name="arch">
+              <df name="auto">
+                <df name="Collectd">
+                </df>
+              </df>
+            </df>
+            <df name="bin">
+            </df>
+            <df name="lib">
+              <df name="auto">
+                <df name="Collectd">
+                </df>
+              </df>
+              <df name="Collectd">
+                <df name="Plugins">
+                </df>
+              </df>
+            </df>
+            <df name="man1">
+            </df>
+            <df name="man3">
+            </df>
+            <df name="script">
+            </df>
+          </df>
+          <df name="Collectd">
+            <df name="Plugins">
+            </df>
+          </df>
+        </df>
+        <df name="java">
+          <df name="org">
+            <df name="collectd">
+              <df name="api">
+              </df>
+              <df name="java">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="perl">
+          <df name="lib">
+            <df name="Collectd">
+              <df name="Plugins">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="contrib">
+        <df name="aix">
+        </df>
+        <df name="collection3">
+          <df name="bin">
+          </df>
+          <df name="etc">
+          </df>
+          <df name="lib">
+            <df name="Collectd">
+              <df name="Graph">
+                <df name="Type">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="share">
+          </df>
+        </df>
+        <df name="examples">
+          <in>myplugin.c</in>
+        </df>
+        <df name="fedora">
+        </df>
+        <df name="iptables">
+        </df>
+        <df name="oracle">
+        </df>
+        <df name="php-collection">
+        </df>
+        <df name="postgresql">
+        </df>
+        <df name="python">
+        </df>
+        <df name="redhat">
+        </df>
+        <df name="sles10.1">
+        </df>
+        <df name="solaris-smf">
+        </df>
+        <df name="SpamAssassin">
+        </df>
+      </df>
+      <df name="libltdl">
+        <df name="config">
+        </df>
+        <df name="libltdl">
+          <in>lt__alloc.h</in>
+          <in>lt__dirent.h</in>
+          <in>lt__glibc.h</in>
+          <in>lt__private.h</in>
+          <in>lt__strl.h</in>
+          <in>lt_dlloader.h</in>
+          <in>lt_error.h</in>
+          <in>lt_system.h</in>
+          <in>slist.h</in>
+        </df>
+        <df name="loaders">
+          <in>dld_link.c</in>
+          <in>dlopen.c</in>
+          <in>dyld.c</in>
+          <in>load_add_on.c</in>
+          <in>loadlibrary.c</in>
+          <in>preopen.c</in>
+          <in>shl_load.c</in>
+        </df>
+        <df name="m4">
+        </df>
+        <in>argz.c</in>
+        <in>argz_.h</in>
+        <in>config.h</in>
+        <in>lt__alloc.c</in>
+        <in>lt__dirent.c</in>
+        <in>lt__strl.c</in>
+        <in>lt_dlloader.c</in>
+        <in>lt_error.c</in>
+        <in>ltdl.c</in>
+        <in>ltdl.h</in>
+        <in>slist.c</in>
+      </df>
+      <df name="src">
+        <df name="libcollectdclient">
+          <df name="collectd">
+            <in>client.h</in>
+            <in>lcc_features.h</in>
+            <in>network.h</in>
+            <in>network_buffer.h</in>
+          </df>
+          <in>client.c</in>
+          <in>network.c</in>
+          <in>network_buffer.c</in>
+        </df>
+        <df name="liboconfig">
+          <in>aux_types.h</in>
+          <in>oconfig.c</in>
+          <in>oconfig.h</in>
+          <in>parser.c</in>
+          <in>parser.h</in>
+          <in>scanner.c</in>
+        </df>
+        <in>aggregation.c</in>
+        <in>amqp.c</in>
+        <in>apache.c</in>
+        <in>apcups.c</in>
+        <in>apple_sensors.c</in>
+        <in>aquaero.c</in>
+        <in>ascent.c</in>
+        <in>battery.c</in>
+        <in>bind.c</in>
+        <in>cgroups.c</in>
+        <in>collectd-nagios.c</in>
+        <in>collectd-tg.c</in>
+        <in>collectd.c</in>
+        <in>collectd.h</in>
+        <in>collectdctl.c</in>
+        <in>collectdmon.c</in>
+        <in>common.c</in>
+        <in>common.h</in>
+        <in>config.h</in>
+        <in>configfile.c</in>
+        <in>configfile.h</in>
+        <in>conntrack.c</in>
+        <in>contextswitch.c</in>
+        <in>cpu.c</in>
+        <in>cpufreq.c</in>
+        <in>cpython.h</in>
+        <in>csv.c</in>
+        <in>curl.c</in>
+        <in>curl_json.c</in>
+        <in>curl_xml.c</in>
+        <in>dbi.c</in>
+        <in>df.c</in>
+        <in>disk.c</in>
+        <in>dns.c</in>
+        <in>email.c</in>
+        <in>entropy.c</in>
+        <in>ethstat.c</in>
+        <in>exec.c</in>
+        <in>filecount.c</in>
+        <in>filter_chain.c</in>
+        <in>filter_chain.h</in>
+        <in>fscache.c</in>
+        <in>gmond.c</in>
+        <in>hddtemp.c</in>
+        <in>interface.c</in>
+        <in>ipmi.c</in>
+        <in>iptables.c</in>
+        <in>ipvs.c</in>
+        <in>irq.c</in>
+        <in>java.c</in>
+        <in>libvirt.c</in>
+        <in>load.c</in>
+        <in>logfile.c</in>
+        <in>lpar.c</in>
+        <in>lvm.c</in>
+        <in>madwifi.c</in>
+        <in>madwifi.h</in>
+        <in>match_empty_counter.c</in>
+        <in>match_hashed.c</in>
+        <in>match_regex.c</in>
+        <in>match_timediff.c</in>
+        <in>match_value.c</in>
+        <in>mbmon.c</in>
+        <in>md.c</in>
+        <in>memcachec.c</in>
+        <in>memcached.c</in>
+        <in>memory.c</in>
+        <in>meta_data.c</in>
+        <in>meta_data.h</in>
+        <in>mic.c</in>
+        <in>modbus.c</in>
+        <in>multimeter.c</in>
+        <in>mysql.c</in>
+        <in>netapp.c</in>
+        <in>netlink.c</in>
+        <in>network.c</in>
+        <in>network.h</in>
+        <in>nfs.c</in>
+        <in>nginx.c</in>
+        <in>notify_desktop.c</in>
+        <in>notify_email.c</in>
+        <in>ntpd.c</in>
+        <in>numa.c</in>
+        <in>nut.c</in>
+        <in>olsrd.c</in>
+        <in>onewire.c</in>
+        <in>openvpn.c</in>
+        <in>oracle.c</in>
+        <in>perl.c</in>
+        <in>pf.c</in>
+        <in>pinba.c</in>
+        <in>ping.c</in>
+        <in>plugin.c</in>
+        <in>plugin.h</in>
+        <in>postgresql.c</in>
+        <in>powerdns.c</in>
+        <in>processes.c</in>
+        <in>protocols.c</in>
+        <in>pyconfig.c</in>
+        <in>python.c</in>
+        <in>pyvalues.c</in>
+        <in>redis.c</in>
+        <in>routeros.c</in>
+        <in>rrdcached.c</in>
+        <in>rrdtool.c</in>
+        <in>sensors.c</in>
+        <in>serial.c</in>
+        <in>sigrok.c</in>
+        <in>snmp.c</in>
+        <in>statsd.c</in>
+        <in>swap.c</in>
+        <in>syslog.c</in>
+        <in>table.c</in>
+        <in>tail.c</in>
+        <in>tail_csv.c</in>
+        <in>tape.c</in>
+        <in>target_notification.c</in>
+        <in>target_replace.c</in>
+        <in>target_scale.c</in>
+        <in>target_set.c</in>
+        <in>target_v5upgrade.c</in>
+        <in>tcpconns.c</in>
+        <in>teamspeak2.c</in>
+        <in>ted.c</in>
+        <in>thermal.c</in>
+        <in>threshold.c</in>
+        <in>tokyotyrant.c</in>
+        <in>types_list.c</in>
+        <in>types_list.h</in>
+        <in>unixsock.c</in>
+        <in>uptime.c</in>
+        <in>users.c</in>
+        <in>utils_avltree.c</in>
+        <in>utils_avltree.h</in>
+        <in>utils_cache.c</in>
+        <in>utils_cache.h</in>
+        <in>utils_cmd_flush.c</in>
+        <in>utils_cmd_flush.h</in>
+        <in>utils_cmd_getval.c</in>
+        <in>utils_cmd_getval.h</in>
+        <in>utils_cmd_listval.c</in>
+        <in>utils_cmd_listval.h</in>
+        <in>utils_cmd_putnotif.c</in>
+        <in>utils_cmd_putnotif.h</in>
+        <in>utils_cmd_putval.c</in>
+        <in>utils_cmd_putval.h</in>
+        <in>utils_complain.c</in>
+        <in>utils_complain.h</in>
+        <in>utils_db_query.c</in>
+        <in>utils_db_query.h</in>
+        <in>utils_dns.c</in>
+        <in>utils_dns.h</in>
+        <in>utils_fbhash.c</in>
+        <in>utils_fbhash.h</in>
+        <in>utils_format_graphite.c</in>
+        <in>utils_format_graphite.h</in>
+        <in>utils_format_json.c</in>
+        <in>utils_format_json.h</in>
+        <in>utils_heap.c</in>
+        <in>utils_heap.h</in>
+        <in>utils_ignorelist.c</in>
+        <in>utils_ignorelist.h</in>
+        <in>utils_latency.c</in>
+        <in>utils_latency.h</in>
+        <in>utils_llist.c</in>
+        <in>utils_llist.h</in>
+        <in>utils_match.c</in>
+        <in>utils_match.h</in>
+        <in>utils_mount.c</in>
+        <in>utils_mount.h</in>
+        <in>utils_parse_option.c</in>
+        <in>utils_parse_option.h</in>
+        <in>utils_random.c</in>
+        <in>utils_random.h</in>
+        <in>utils_rrdcreate.c</in>
+        <in>utils_rrdcreate.h</in>
+        <in>utils_subst.c</in>
+        <in>utils_subst.h</in>
+        <in>utils_tail.c</in>
+        <in>utils_tail.h</in>
+        <in>utils_tail_match.c</in>
+        <in>utils_tail_match.h</in>
+        <in>utils_time.c</in>
+        <in>utils_time.h</in>
+        <in>utils_vl_lookup.c</in>
+        <in>utils_vl_lookup.h</in>
+        <in>utils_vl_lookup_test.c</in>
+        <in>uuid.c</in>
+        <in>varnish.c</in>
+        <in>vmem.c</in>
+        <in>vserver.c</in>
+        <in>wireless.c</in>
+        <in>write_graphite.c</in>
+        <in>write_http.c</in>
+        <in>write_mongodb.c</in>
+        <in>write_redis.c</in>
+        <in>write_riemann.c</in>
+        <in>xmms.c</in>
+        <in>zfs_arc.c</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
