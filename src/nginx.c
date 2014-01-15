@@ -28,6 +28,7 @@
 #include "configfile.h"
 
 #include <curl/curl.h>
+#include <string.h>
 
 static char *url = NULL;
 static char *user = NULL;
@@ -98,6 +99,8 @@ static int config(const char *key, const char *value) {
         return (config_set(&verify_host, value));
     else if (strcasecmp(key, "cacert") == 0)
         return (config_set(&cacert, value));
+    else if (strcasecmp(key, "http_header") == 0)
+        return (config_set(&http_header, value));
     else
         return (-1);
 } /* int config */
