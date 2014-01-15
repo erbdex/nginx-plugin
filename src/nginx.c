@@ -107,7 +107,6 @@ static int config(const char *key, const char *value) {
 
 static int init(void) {
     static char credentials[1024];
-    static char tmp[1024];
 
     if (curl != NULL)
         curl_easy_cleanup(curl);
@@ -122,9 +121,12 @@ static int init(void) {
     curl_easy_setopt(curl, CURLOPT_USERAGENT, PACKAGE_NAME"/"PACKAGE_VERSION);
     curl_easy_setopt(curl, CURLOPT_ERRORBUFFER, nginx_curl_error);
 
+    static char tmp[1024];
+    struct curl_slist *chunk = NULL;
+    
     strcpy(tmp, strncat("HeaderName: ", http_header, strlen(http_header)));
-    slist = curl_slist_append(slist, tmp);
-    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, slist);
+    chunk = curl_slist_append(chunk, tmp);
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, chunk);
 
     if (user != NULL) {
         int status = ssnprintf(credentials, sizeof (credentials),
